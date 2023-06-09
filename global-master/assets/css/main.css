@@ -59,7 +59,38 @@ cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz
 
 padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;
 
-padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;
+padding:0}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f33ff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  button[disabled],
+  html input[disabled] {
+    cursor: default;
+  }
+  
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  
+  input {
+    line-height: normal;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;
 
 box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;
 
@@ -548,7 +579,7 @@ color:#fff;
 border:10px solid #0f33ff;
 background-position:center;
 background-size:cover;
-background-repeat:no-repeat}.about--options>a:nth-child(1){background-image:url("../img/about-winners.jpg")}.about--options>a:nth-child(2){background-image:url("../img/about-philosophy.jpg")}.about--options>a:nth-child(3){background-image:url("../img/about-history.jpg")}.about--options>a:hover h3{bottom:-50px}.about--options h3{position:absolute;
+background-repeat:no-repeat}.about--options>a:nth-child(1){background-image:url("../img/Didi-Food.jpeg")}.about--options>a:nth-child(2){background-image:url("../img/ben.png")}.about--options>a:nth-child(3){background-image:url("../img/about-history.jpg")}.about--options>a:hover h3{bottom:-50px}.about--options h3{position:absolute;
 bottom:-38px;
 left:10px;
 font-size:16px;
